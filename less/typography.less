@@ -1,0 +1,106 @@
+@import 'variables.less';
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote,
+table{
+    margin: 0 0 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-style: italic;
+    font-weight: 900;
+    color: @primary;
+    text-transform: uppercase;
+    #pxConvert > .fullFont(normal, 800, 30, 30, @fontFamily2);
+
+}
+h1{
+    #pxConvert > .convertFont(32,32);
+}
+h2{
+    #pxConvert > .convertFont(28,28);
+}
+h3{
+    #pxConvert > .convertFont(24,24);
+}
+h4{
+    #pxConvert > .convertFont(22,22);
+}
+h5{
+    #pxConvert > .convertFont(14,14);
+}
+h6{
+    #pxConvert > .convertFont(12,12);
+}
+
+
+a{
+    color: @primary;
+}
+strong{
+    font-weight: bold;
+}
+small{
+    #pxConvert > .convertFont(10,12);
+}
+ul,
+ol{
+    margin: 20px 0 20px 20px;
+    li{
+        ul,
+        ol{
+            margin: 0 0 20px 20px;
+        }
+    }
+}
+ul{
+    li{
+        //list-style: square outside;
+        line-height: 1.4rem;
+    }
+}
+ol{
+    li{
+        list-style: decimal outside;
+    }
+}
+blockquote{
+    cite{
+        display: block;
+        font-weight: bold;
+    }
+}
+table{
+    width: 100%;
+    th,
+    td{
+        padding: 5px;
+        line-height: 1.2em;
+        border: 1px solid #ddd;
+    }
+    th{
+        font-weight: bold;
+        vertical-align: middle;
+    }
+}
+img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    @media only screen and (min-width : 600px){
+        width: auto;
+    }
+}

@@ -1,0 +1,167 @@
+@import 'variables.less';
+
+#content {
+    #side-col {}
+    #main-col {
+        .border {
+            border: 2px solid @secondary;
+            padding: 20px;
+            overflow: auto;
+            position: relative;
+            z-index: 2;
+            .yellowcta {
+                @media only screen and (min-width: 600px) {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .secondary {
+            margin-bottom: 20px;
+        }
+        .minor {
+            color: @primary;
+            font-weight: 600;
+            font-size: 1.77777778rem;
+            line-height: 1.8rem;
+        }
+        p {
+            line-height: 1.4rem;
+        }
+    }
+}
+#contact-page,
+#sitemap,
+#privacy_policy,
+.not-found {
+    margin: 40px;
+}
+#testimonial-panel {
+    margin: 40px 0;
+    overflow: auto;
+}
+#network-panel {
+    margin-top: 40px;
+}
+.max {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.col-dd-offset-1 {
+    @media only screen and (min-width: 800px) {
+        margin-left: 8.33333333%;
+    }
+}
+.col-dd-offset-4 {
+    @media only screen and (min-width: 800px) {
+        margin-right: 8.33333333%;
+        margin-left: 8.33333333%;
+    }
+}
+.col-md-offset-10 {
+    @media only screen and (min-width: 600px) {
+        margin-left: 75%
+    }
+}
+.col-sd-offset {
+    @media only screen and (min-width: 1135px) {
+        margin-left: 23.01%;
+    }
+}
+
+.col-custom {
+    @media only screen and (min-width: 1135px) {
+        width:66.66%!important;
+    }
+}
+
+.col-md-offset-7 {
+    @media only screen and (min-width: 600px) {
+        margin-left: 58.34%
+    }
+}
+#clear {
+    clear: both;
+}
+.yellowcta {
+    color: @secondary;
+    font-weight: 600;
+    font-size: 1.1555rem;
+}
+.center {
+    text-align: center;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #d9d9d9;
+    margin: 25px 0;
+}
+#map_wrapper {
+    height: 300px;
+    #map_canvas {
+        height: 100%;
+        width: 100%;
+        .info_inner {
+            display: inline-block;
+            .map_location_title {
+                font-weight: 500;
+                font-size: 14px;
+                color: black;
+                font-family: Roboto, Arial;
+                margin-bottom: 5px;
+            }
+            .map_location_address {
+                color: #5B5B5B;
+                font-family: Roboto, Arial;
+                font-size: 12px;
+            }
+        }
+        .info_directions {
+            display: inline-block;
+            margin-left: 10px;
+            .map_location_link {
+                color: #3a84df;
+                font-size: 12px;
+                font-family: Roboto, Arial;
+                font-weight: 400;
+                &:hover {
+                    text-decoration: underline;
+                }
+                .icon {
+                    background-image: url(https://maps.gstatic.com/mapfiles/embed/images/entity11_hdpi.png);
+                    background-size: 70px 210px;
+                }
+                .navigate-icon {
+                    width: 22px;
+                    height: 22px;
+                    overflow: hidden;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .large_link {
+            margin-top: 20px;
+            a {
+                color: #3a84df;
+                font-size: 12px;
+                font-family: Roboto, Arial;
+                font-weight: 400;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+.hide {
+    display: none;
+}
+
+.max{
+    max-width: 1100px;
+    margin:0 auto;
+}
+
+.clear{
+    clear:both;
+}

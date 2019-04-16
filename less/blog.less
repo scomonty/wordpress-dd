@@ -1,0 +1,66 @@
+@import 'variables.less';
+
+#blog-panel{
+margin: 40px 40px;
+padding: 0 30px;
+overflow: auto;
+#main{
+	display:flex;
+	flex-wrap:wrap;
+	article{
+		width:100%;
+		padding: 40px 40px 0 0;
+		.entry-content{
+				.more-link{
+		color:@primary;
+		box-shadow: none;
+	}
+		}
+	}
+}
+h1{
+	font-size: 2rem;
+	color:@secondary;
+	font-weight:600;
+}
+.entry-title{
+	a{
+		font-family:@fontFamily1;
+		font-weight:600;
+        color:@nine;
+        font-size:1.5rem;
+        margin-bottom:10px;
+	}
+}
+a{
+	&:hover{
+		box-shadow:none;
+	}
+}
+}
+
+#blog-page{
+	margin: 80px 40px;
+padding: 0 30px;
+overflow: auto;
+#primary{
+	max-width: 100%;
+	img{
+		float:left;
+		margin-right:20px;
+	}
+	a{
+	&:hover{
+		box-shadow:none;
+	}
+}
+}
+}
+
+.nav-links{
+		a{
+	&:hover{
+		box-shadow:none;
+	}
+}
+}

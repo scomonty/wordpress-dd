@@ -1,0 +1,18 @@
+/*
+ Theme Name: dimensional-dental
+ Description: dimensionaldental blog using the parent theme Twenty Seventeen.
+ Author: Scott Montgomery
+ Author URI: [Your URL]
+ Template: twentyseventeen
+ Version: 1
+ */
+
+
+ @media screen and (min-width: 48em){
+ .has-sidebar	#primary {
+    width: 68%;
+}
+.has-sidebar #secondary {
+    width: 26%;
+}
+}

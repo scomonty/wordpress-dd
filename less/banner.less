@@ -1,0 +1,29 @@
+@import 'variables.less';
+
+    .default-banner {
+        height: 373px;
+        background-image: url('../images/banner/banner-other.jpg');
+        background-size: cover;
+        background-position: center;
+        .cta-text {
+            text-transform: uppercase;
+            font-size: 2.97533333rem;
+            font-weight: 700;
+            line-height: 2.973rem;
+            font-style: normal;
+            color: #fff;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            @media only screen and (max-width: 600px) {
+                text-align: center;
+            }
+            @media only screen and (min-width: 400px) {
+                font-size: 3.77533333rem;
+                line-height: 3.73rem;
+            }
+        }
+    }

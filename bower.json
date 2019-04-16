@@ -1,0 +1,28 @@
+{
+  "name": "template-requirements",
+  "description": "Components for T3 Template",
+  "main": "",
+  "authors": [
+    "Ernest Cook <ecook@yodle.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "matchMedia": "~0.2.0",
+    "placeholders": "~4.0.1",
+    "jquery-legacy": "jquery#^1",
+    "jquery": "^2.2.4",
+    "remodal": "^1.1.0"
+  }
+}

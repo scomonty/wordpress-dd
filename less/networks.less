@@ -1,0 +1,63 @@
+@import 'variables.less';
+
+#network-panel {
+    margin:80px 40px;
+    padding:0 30px;
+@media only screen and (max-width:600px){
+    text-align:center;
+}
+    .headline{
+        font-weight:600;
+        color:@nine;
+        font-size:1.5rem;
+        margin-bottom:10px;
+    }
+    hr {
+        border: 0;
+        height: 1px;
+        background: #d9d9d9;
+    }
+    .networks {
+        .left,
+        .right,
+        .center {
+            margin: 5px 0;
+            img {
+                width: 100%;
+                height: auto;
+                @media only screen and (min-width: 400px) {
+                    width: 250px;
+                }
+                @media only screen and (min-width:600px) {
+                    width: 100%;
+                }
+                @media only screen and (min-width:977px) {
+                    width: 250px;
+                }
+            }
+        }
+        .left {
+            text-align: center;
+            @media only screen and (min-width: 600px) {
+                text-align: left;
+            }
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: center;
+            @media only screen and (min-width: 600px) {
+                text-align: right;
+            }
+        }
+    }
+    .plus{
+        li{
+            font-style:italic;
+            &:before{
+                font-size:.6rem;
+            }
+        }
+    }
+}

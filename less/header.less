@@ -1,0 +1,44 @@
+@import 'variables.less';
+
+
+header {
+    @media only screen and (min-width:800px) {
+    padding: 5px 40px 5px;
+}
+    .head-wrap {
+        position: relative;
+        @media only screen and (min-width:800px){
+        display:flex;
+    }
+        .logo {
+            display: flex;
+    justify-content: center;
+            img {
+                float: none;
+                width: 100%;
+                max-width: 175px;
+                height: auto;
+                @media only screen and (min-width: 500px) {
+                    max-width: 250px;
+                }
+            }
+        }
+        a {
+            display: block;
+            max-width: 350px;
+            margin: 10px auto;
+        }
+        @media only screen and (min-width: 800px) {
+            a {
+                margin: 0;
+            }
+        }
+        .navigation {
+            text-align: right;
+            display: flex;
+            -ms-flex-align:center;
+    align-items: center;
+    justify-content: flex-end;
+        }
+    }
+}

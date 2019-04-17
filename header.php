@@ -28,7 +28,7 @@
                     <li><a href="https://www.dimensionaldental.com/affiliate_with_us.html">join our network</a></li>
                     <li><a href="https://www.dimensionaldental.com/careers.html">careers</a></li>
                     <li><a href="https://www.dimensionaldental.com/contact.html">contact</a></li>
-                    <li><a href="https://www.dimensionaldental.com/blog.html">blog</a></li>
+                    <li><a href="https://www.dimensionaldental.com/blog.html">news</a></li>
                 </ul>
             </nav>
         </div>

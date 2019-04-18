@@ -20,7 +20,7 @@
     <div class="foot-wrap">
         <div class="container row twelve">
             <div id="foot-left" class="col-sd-12 col-dd-3">
-                <a href="index.html"><img src="/wp-content/themes/dimensional-dental/images/logo.png" alt="Dimensional Dental Logo" /></a>
+                <a href="index.html"><img src="/images/logo.png" alt="Dimensional Dental Logo" /></a>
             </div>
             <div id="foot-mid" class="copy-wrap col-sd-12 col-dd-6">
                 <p>Copyright &copy; <?php echo date('Y');?> Dimensional Dental | All Rights Reserved | <a href="https://www.dimensionaldental.com/privacy_policy.html">Privacy Policy</a> | <a href="https://www.dimensionaldental.com/sitemap.html">Sitemap</a></p>
